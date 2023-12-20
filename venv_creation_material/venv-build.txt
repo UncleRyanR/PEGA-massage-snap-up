@@ -1,0 +1,25 @@
+https://www.py4u.net/discuss/153010
+
+Ah, You are not creating the build in a separate virtual environment.
+
+Create a virtual environment just for build purpose and install the packages you need in this environment.
+
+in your cmd execute these to create a virtual enviornment
+
+python -m venv build_env
+
+cd build_env
+
+C:\build_env\Scripts\Activate
+
+you will see this >>(build_env) C:\build_env
+
+Install all the packages you need for your script, start with pyinstaller
+
+pip install pyinstaller
+or give a txt file (pip install -r requirements.txt)
+
+Once you are all installed, build the exe as before. The exe built using the virtual environment will be faster and smaller in size!! For more details check https://python-forum.io/Thread-pyinstaller-exe-size
+
+Answered By:
+Sudath Murari

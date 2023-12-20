@@ -1,0 +1,7 @@
+1. Vscode -> new terminal 
+2. cd C:\Users\Pure\Desktop\git_repos\0_build_venv\detect_cursor_position\Scripts
+3. Type "cmd" -> enter -> PS will become cmd 
+4. Type "activate"  
+4. Making sure (venv) mode is enabled  
+5. cd ..
+6. C:/Users/Pure/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Pure/Desktop/git_repos/0_build_venv/detect_cursor_position/BuildTool.py
